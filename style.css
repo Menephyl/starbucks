@@ -35,6 +35,10 @@ button:hover{
 }
 .starbucks{
     width: 340px;
+    display: flex;
+    top: 100px;
+    left: 150px;
+    position: relative;
 }
 
 .conteudo{
@@ -50,7 +54,8 @@ width: 600px;
 .menu{
     display: flex;
     justify-content: center;
-}
+    margin-top: 120px;
+ }
 .botao-menu{
     width: 60px;
     cursor: pointer;
@@ -59,4 +64,12 @@ width: 600px;
 width: 90px;
 transform: translateY(-30px);
 
+}
+.circulo{
+width: 100%;
+height: 100%;
+background: #017143;
+position: absolute;
+clip-path:circle(700px at right 900px);
+z-index: -1 ;
 }
